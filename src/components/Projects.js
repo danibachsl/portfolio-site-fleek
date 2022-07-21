@@ -36,10 +36,9 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Monday CRM</h3>
-                    <img src={monday} alt="Aave Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <img src={monday} alt="Monday CRM Clone" />
+                    <p>This app is currently under development...
+                       Stay tunned!
                     </p>
 
                     <a  target="_blank" className="button">Site</a>
