@@ -35,10 +35,11 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Monday CRM</h3>
+                    <h3>Monday CRM Clone</h3>
                     <img src={monday} alt="Monday CRM Clone" />
                     <p>This app is currently under development...
                        Stay tunned!
+                       Comming soon!!
                     </p>
 
                     <a  target="_blank" className="button">Site</a>
