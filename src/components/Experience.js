@@ -5,13 +5,13 @@ const Experience = () => {
 
             <ul>
                 <li>
-                    <i>Ironhack Coding Bootcamp</i>, May 2022 - Jul 2022
+                    <i>Ironhack Coding <strong>Bootcamp</strong></i>, May 2022 - Jul 2022
                     <ul>
                         <li>Inmmersed in a 2.5 month full-time bootcamp in Barcelona</li>
                     </ul>
                 </li>
                 <li>
-                    <i>Udacity - Become a Blockchain Developer Course</i>, August 2022
+                    <i>Udacity - Become a <strong>Blockchain Developer</strong> Course</i>, August 2022
                     <ul>
                         <li>Created my Own Private Blockchain</li>
                         <li>Built CryptoStar Dapp on Ethereum</li>
