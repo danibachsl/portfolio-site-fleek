@@ -1,7 +1,7 @@
 // Import Assets
 import cryptowolf from '../assets/cryptowolf.png';
-import compound from '../assets/compound.png';
-import aave from '../assets/aave.png';
+import submarine from '../assets/submarinegame.png';
+import monday from '../assets/monday.png';
 
 const Projects = () => {
     return (
@@ -13,7 +13,8 @@ const Projects = () => {
                 <div className="projects__card">
                     <h3>Crypto Tracker</h3>
                     <img src={cryptowolf} alt="Crypto Dashboard Page" />
-                    <p>App built with React for tracking crypto prices and generating graphs with chart.js 
+                    <p>App built with React for tracking crypto prices
+                       and generating graphs with chart.js 
                        library for each crypto using Coingecko API.
                     </p>
 
@@ -22,27 +23,27 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Compound</h3>
-                    <img src={compound} alt="Compound Landing Page" />
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        Facilis consectetur facere neque assumenda quasi aliquid,
-                        perferendis ratione rerum dolorem.
+                    <h3>Submarine Game</h3>
+                    <img src={submarine} alt="Submarine Game" />
+                    <p>This is my very first game in 2D with canvas 
+                       that is about destroying submarines moving below water with a destructor. 
+                       It's free!
                     </p>
 
-                    <a href="https://compound.finance/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/compound-finance/compound-protocol" target="_blank" className="button">Code</a>
+                    <a href="https://danibachsl.github.io/Submarine-Destructor-Game/" target="_blank" className="button">Launch</a>
+                    <a href="https://github.com/danibachsl/Submarine-Destructor-Game" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
-                    <h3>Aave</h3>
-                    <img src={aave} alt="Aave Landing Page" />
+                    <h3>Monday CRM</h3>
+                    <img src={monday} alt="Aave Landing Page" />
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                         Facilis consectetur facere neque assumenda quasi aliquid,
                         perferendis ratione rerum dolorem.
                     </p>
 
-                    <a href="https://aave.com/" target="_blank" className="button">Site</a>
-                    <a href="https://github.com/aave/aave-v3-core" target="_blank" className="button">Code</a>
+                    <a  target="_blank" className="button">Site</a>
+                    <a  target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>
