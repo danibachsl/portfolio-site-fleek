@@ -8,7 +8,9 @@ const Header = () => {
 
             <div className='header__content'>
                 <h1>Hi, I'm Dani Bachs</h1>
+                <br></br>
                 <p>Jr. Fullstack MERN &amp; Blockchain Developer</p>
+                <br></br>
                 <a href="mailto:danibachsl@protonmail.com" target="_blank" className='button'>Get In Touch</a>
             </div>
         </section>

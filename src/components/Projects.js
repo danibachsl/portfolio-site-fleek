@@ -42,7 +42,7 @@ const Projects = () => {
                        Comming soon!!
                     </p>
 
-                    <a  target="_blank" className="button">Site</a>
+                    <a  target="_blank" className="button">Building...</a>
                     <a  target="_blank" className="button">Code</a>
                 </div>
             </div>
