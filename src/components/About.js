@@ -6,14 +6,7 @@ const About = () => {
         <section className='about'>
             <h2>About Me</h2>
             <p>
-                Lorem ipsum dolor sit amet consectetur,
-                adipisicing elit. Neque, pariatur odio.
-                Maxime, labore nihil illo ea voluptate suscipit aliquid animi
-                possimus laudantium fugit obcaecati harum?
-                Assumenda maiores nam magnam animi? Lorem ipsum dolor sit amet consectetur
-                adipisicing elit. Eaque voluptatibus vitae, rem corrupti id consectetur!
-                Sapiente laboriosam nam excepturi exercitationem natus unde, harum
-                consequatur vero amet consectetur quod sunt autem!
+            I am a Jr. Fullstack Developer passionate about Blockchain and enjoy being up to date with the latest technologies. I would describe myself as a constant learner, ambitious, pro-active and goal-driven person. I started being interested in crypto since the 2017 crypto market local top where I started investigating about this amazing new technology. Then, I realized how powerful Blockchain can be to solve many problems the economy is currently facing and that’s why I cannot stop learning about it. 
             </p>
         </section>
     );

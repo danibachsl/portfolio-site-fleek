@@ -11,7 +11,7 @@ const Experience = () => {
                     </ul>
                 </li>
                 <li>
-                    <i>Udacity - Become a <strong>Blockchain Developer</strong> Course</i>, August 2022
+                    <i>Udacity - <strong>Blockchain Development</strong> Nanodegree Program</i>, August 2022
                     <ul>
                         <li>Created my Own Private Blockchain</li>
                         <li>Built CryptoStar Dapp on Ethereum</li>
