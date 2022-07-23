@@ -2,6 +2,7 @@
 import cryptowolf from '../assets/cryptowolf.png';
 import submarine from '../assets/submarinegame.png';
 import monday from '../assets/monday.png';
+import whale_tracker from '../assets/whale_tracker.png';
 
 const Projects = () => {
     return (
@@ -11,7 +12,7 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Crypto Tracker</h3>
+                    <h3>Crypto Dashboard</h3>
                     <img src={cryptowolf} alt="Crypto Dashboard Page" />
                     <p>App built with React for tracking crypto prices
                        and generating graphs with chart.js 
@@ -20,6 +21,18 @@ const Projects = () => {
 
                     <a href="https://crypto-wolf.herokuapp.com/" target="_blank" className="button">Launch</a>
                     <a href="https://github.com/danibachsl/Crypto_Wolf" target="_blank" className="button">Code</a>
+                </div>
+
+                <div className="projects__card">
+                    <h3>Whale Tracker</h3>
+                    <img src={whale_tracker} alt="Submarine Game" />
+                    <p>Javascript file connected to the blockchain that 
+                       makes a sound every time it detects a large transaction 
+                       with USDC (USD Coin) ERC-20 token. Crazy!
+                    </p>
+
+                    <a  className="button">Launch</a>
+                    <a href="https://github.com/danibachsl/crypto-whale-tracker" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
