@@ -32,7 +32,7 @@ const Projects = () => {
                        with USDC (USD Coin) ERC-20 token. Crazy!
                     </p>
 
-                    <a  className="button">Launch</a>
+                    <a  className="button">Available on terminal</a>
                     <a href="https://github.com/danibachsl/crypto-whale-tracker" target="_blank" className="button">Code</a>
                 </div>
 
@@ -44,7 +44,7 @@ const Projects = () => {
                     tokens
                     </p>
 
-                    <a  className="button">Launch</a>
+                    <a  className="button">Available on terminal</a>
                     <a href="https://github.com/danibachsl/governance-DAO" target="_blank" className="button">Code</a>
                 </div>
 
