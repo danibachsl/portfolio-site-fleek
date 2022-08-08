@@ -20,12 +20,6 @@ const Experience = () => {
                         <li>Capstone</li>
                     </ul>
                 </li>
-                <li>
-                    <i>Snab Finance</i> - <strong> Junior Fullstack Developer Intern</strong>, Sept 2022 - Dec 2022
-                    <ul>
-                        <li>Contributed to payment systems development on Snab's platform</li>
-                    </ul>
-                </li>
             </ul>
         </div>
     );

@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: white;
 }
 
 body {
@@ -123,7 +124,7 @@ code {
 
   padding: 20px;
 
-  border: 1px solid #0088BB;
+  border: 1px solid black;
   border-radius: 8px;
 }
 
