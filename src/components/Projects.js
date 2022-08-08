@@ -3,6 +3,7 @@ import cryptowolf from '../assets/cryptowolf.png';
 import submarine from '../assets/submarinegame.png';
 import monday from '../assets/monday.png';
 import whale_tracker from '../assets/whale_tracker.png';
+import DAO from '../assets/DAO.png';
 
 const Projects = () => {
     return (
@@ -33,6 +34,18 @@ const Projects = () => {
 
                     <a  className="button">Launch</a>
                     <a href="https://github.com/danibachsl/crypto-whale-tracker" target="_blank" className="button">Code</a>
+                </div>
+
+                <div className="projects__card">
+                    <h3>DAO</h3>
+                    <img src={DAO} alt="DAO" />
+                    <p>Decentralized Autonomous Organization holding ethers in it’s 
+                    treasury with token holders (voters) using governance 
+                    tokens
+                    </p>
+
+                    <a  className="button">Launch</a>
+                    <a href="https://github.com/danibachsl/governance-DAO" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
