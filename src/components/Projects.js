@@ -4,6 +4,7 @@ import submarine from '../assets/submarinegame.png';
 import monday from '../assets/monday.png';
 import whale_tracker from '../assets/whale_tracker.png';
 import DAO from '../assets/DAO.png';
+import DeFi from '../assets/defi_lending_aggregator.png'
 
 const Projects = () => {
     return (
@@ -13,15 +14,15 @@ const Projects = () => {
             <div className="projects__cards">
 
                 <div className="projects__card">
-                    <h3>Crypto Dashboard</h3>
-                    <img src={cryptowolf} alt="Crypto Dashboard Page" />
-                    <p>App built with React for tracking crypto prices
-                       and generating graphs with chart.js 
-                       library for each crypto using Coingecko API.
+                    <h3>DeFi Savings App</h3>
+                    <img src={DeFi} alt="DeFi Savings App" />
+                    <p>Scripts that check supply APY between AAVE & Compound
+                       and deposits savings in the one giving more yield.
+                       This way we can get the best yield on our savings.
                     </p>
 
-                    <a href="https://crypto-wolf.herokuapp.com/" target="_blank" className="button">Launch</a>
-                    <a href="https://github.com/danibachsl/Crypto_Wolf" target="_blank" className="button">Code</a>
+                    <a className="button">Run on terminal</a>
+                    <a href="https://github.com/danibachsl/mini_defi_lending_aggregator" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
@@ -32,7 +33,7 @@ const Projects = () => {
                        with USDC (USD Coin) ERC-20 token. Crazy!
                     </p>
 
-                    <a  className="button">Available on terminal</a>
+                    <a className="button">Run on terminal</a>
                     <a href="https://github.com/danibachsl/crypto-whale-tracker" target="_blank" className="button">Code</a>
                 </div>
 
@@ -44,7 +45,7 @@ const Projects = () => {
                     tokens
                     </p>
 
-                    <a  className="button">Available on terminal</a>
+                    <a  className="button">Run on terminal</a>
                     <a href="https://github.com/danibachsl/governance-DAO" target="_blank" className="button">Code</a>
                 </div>
 
@@ -61,15 +62,15 @@ const Projects = () => {
                 </div>
 
                 <div className="projects__card">
-                    <h3>Monday CRM Clone</h3>
-                    <img src={monday} alt="Monday CRM Clone" />
-                    <p>This app is currently under development...
-                       Stay tunned!
-                       Comming soon!!
+                    <h3>Crypto Dashboard</h3>
+                    <img src={cryptowolf} alt="Crypto Dashboard Page" />
+                    <p>App built with React for tracking crypto prices
+                       and generating graphs with chart.js 
+                       library for each crypto using Coingecko API.
                     </p>
 
-                    <a  target="_blank" className="button">Building...</a>
-                    <a  target="_blank" className="button">Code</a>
+                    <a href="https://crypto-wolf.herokuapp.com/" target="_blank" className="button">Launch</a>
+                    <a href="https://github.com/danibachsl/Crypto_Wolf" target="_blank" className="button">Code</a>
                 </div>
             </div>
         </section>
