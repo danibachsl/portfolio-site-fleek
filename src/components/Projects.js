@@ -5,6 +5,7 @@ import monday from '../assets/monday.png';
 import whale_tracker from '../assets/whale_tracker.png';
 import DAO from '../assets/DAO.png';
 import DeFi from '../assets/defi_lending_aggregator.png'
+import Dapp from '../assets/dapp_wallet.png'
 
 const Projects = () => {
     return (
@@ -23,6 +24,18 @@ const Projects = () => {
 
                     <a className="button">Run on terminal</a>
                     <a href="https://github.com/danibachsl/mini_defi_lending_aggregator" target="_blank" className="button">Code</a>
+                </div>
+
+                <div className="projects__card">
+                    <h3>Dapp Wallet</h3>
+                    <img src={Dapp} alt="Dapp" />
+                    <p>Dapp wallet with Metamask & WalletConnect integration
+                       using Web3Modal. Install Metamask Chrome extension for 
+                       better interaction with the Dapp.
+                    </p>
+
+                    <a href="https://old-morning-1746.on.fleek.co/" target="_blank" className="button">Launch</a>
+                    <a href="https://github.com/danibachsl/dapp_wallet" target="_blank" className="button">Code</a>
                 </div>
 
                 <div className="projects__card">
